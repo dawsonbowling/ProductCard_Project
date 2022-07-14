@@ -1,0 +1,79 @@
+body{
+    background-color: #F2EBE3;
+    font-family: 'Montserrat', sans-serif;
+}
+h1
+{
+  font-family: 'Fraunces', serif;
+  margin: 40px;
+}
+h3{
+  font-family: 'Fraunces', serif;
+  color: #52ad8c;
+  font-size: 2rem;
+  margin: 40px 40px 20px;
+}
+
+h5{
+  margin: 40px;
+  font-weight: 200;
+  letter-spacing: .5rem;
+}
+p{
+  margin: 40px;
+}
+.product-card{
+  margin: 15rem auto;
+  width: 40%;
+  height: 30em;
+  border-radius: 1%;
+  background-color: white;
+}
+.product-text{
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+.perfume-img{
+  width: 50%;
+  height: 100%;
+  border-top-left-radius: 1%;
+  border-bottom-left-radius: 1%;
+}
+.discount {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 1rem;
+  text-decoration: line-through;
+  text-align: right;
+  margin-left: 40px;
+}
+.btn {
+  display: block;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 25px;
+  background: #52ad8c;
+  padding: 15px 40px 15px 40px;
+  margin: 20px 40px;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+.btn:hover {
+  background: #42856d;
+  text-decoration: none;
+}
+
+.btn img{
+  height: 20px;
+}
+
+.attribution{
+  position: fixed;
+  bottom: 0;
+}
